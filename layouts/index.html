@@ -1,0 +1,19 @@
+{{ partial "header.html" . }}
+{{ partial "menu.html" . }}
+
+<!-- Workaround to get the main page to read from index.md -->
+{{ range .Data.Pages }}
+    {{if eq .Type "index" }} 
+        <div class="main-content container">
+            <h1 class="page-header">{{ .Title }}</h1>
+            <div class="col-xs-12 col-md-8" style="padding-left: 0;">
+                {{ .Content }}
+            </div>
+            <div class="col-xs-12 col-md-4">
+                <img src="img/ppig-pair-300.jpg">
+            </div>
+        </div>
+    {{end}}
+{{ end }}
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,41 @@
+baseurl = "https://ppig2016.appspot.com/"
+title = "Psychology of Programming Interest Group Annual Conference 2016"
+location = "University of Cambridge"
+copyright = "&copy; 2016 PPIG"
+dates = "7 - 10 September 2016"
+languageCode = "en-GB"
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+[params]
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  # A short title to be displayed in the navbar.
+  short_title = "PPIG 2016"
+
+# Navigation Links - these should be kept in sync with the params
+#   The weight parameter defines the order that the links will appear in.
+[[menu.main]]
+  name = "Home"
+  url = ""
+  weight = 1
+
+[[menu.main]]
+  name = "Attendance information"
+  url = "attendance"
+  weight = 2
+
+[[menu.main]]
+  name = "Program"
+  url = "program"
+  weight = 3
+
+[[menu.main]]
+  name = "CAS Research Workshop"
+  url = "education_workshop"
+  weight = 4
+
