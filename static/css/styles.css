@@ -38,3 +38,34 @@ ul td:nth-child(1) {
 ul td:nth-child(2) {
 	width: 40%;
 }
+
+.navbar-default {
+	background-color: #af4c78;
+	border: none;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background: rgba(255, 255, 255, 0.7);
+}
